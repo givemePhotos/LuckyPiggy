@@ -1,0 +1,17 @@
+{
+  /* Base configuration. Do not edit this field. */
+  "extends": "./temp/tsconfig.cocos.json",
+  /* Add your custom configuration here. */
+  "compilerOptions": {
+    "strict": false,
+    "target": "ES2015",
+    "module": "ES2015",
+    "lib": [
+      "DOM",
+      "ES2024"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true
+  }
+}
